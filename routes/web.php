@@ -27,4 +27,4 @@ Route::get('/category/list',[CategoryController::class,'list'])->name('category.
 
 Route::get('/category/form',[CategoryController::class,'categoryForm'])->name('category.form');
 
-Route::get('/category/form/adfasdfsd',[CategoryController::class,'categoryForm'])->name('category.form');
+Route::post('/category/store',[CategoryController::class,'categoryStore'])->name('category.store');
