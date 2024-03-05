@@ -26,3 +26,5 @@ Route::get('/product/create/form',[ProductController::class,'createForm'])->name
 Route::get('/category/list',[CategoryController::class,'list'])->name('category.list');
 
 Route::get('/category/form',[CategoryController::class,'categoryForm'])->name('category.form');
+
+Route::get('/category/form/adfasdfsd',[CategoryController::class,'categoryForm'])->name('category.form');
